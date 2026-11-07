@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "ender_qol",
+  "version": "${version}",
+  "name": "Ender QOL",
+  "description": "Vanilla-plus client quality-of-life, performance and PvP helpers.",
+  "authors": ["EnderDevelopment"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.enderdevelopment.enderqol.EnderQolClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
